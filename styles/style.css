@@ -12,8 +12,13 @@ body {
 }
 
 .header__logo {
-  width: 129px;
-  height: 104px;
+  margin-left: -150px;
+  width: 148px;
+  height: 105px;
+}
+
+.header__logo img {
+  height: 100%;
 }
 
 .header__nav {
@@ -24,6 +29,7 @@ body {
 }
 
 .header__address {
+  font-style: normal;
   max-width: 240px;
 }
 
@@ -209,6 +215,7 @@ body {
 }
 
 .footer__address {
+  font-style: normal;
   max-width: 240px;
 }
 
