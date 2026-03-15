@@ -23,16 +23,20 @@ body {
 
 .header__nav {
   display: flex;
-  gap: 26px;
+  gap: 32px;
   align-items: center;
   list-style: circle;
 }
 
 .header__nav .no-circle {
+  text-decoration: none;
   list-style: none;
 }
 
 .header__address {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
   font-style: normal;
   max-width: 240px;
 }
@@ -41,6 +45,7 @@ body {
   background-image: url('../images/cover.jpg');
   position: relative;
   padding: 170px 50px 50px 50px;
+  margin-top: 5px;
   margin-bottom: 180px;
   height: 757px;
 }
@@ -175,6 +180,9 @@ body {
 }
 
 .about {
+  position: relative;
+  top: 25px;
+  left: 20px;
   display: flex;
   gap: 72px;
   padding: 155px 50px 180px;
