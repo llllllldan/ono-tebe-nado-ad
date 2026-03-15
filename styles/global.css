@@ -35,4 +35,6 @@ img {
 
 button {
   font: inherit;
+  all: unset;
+  cursor: pointer;
 }
