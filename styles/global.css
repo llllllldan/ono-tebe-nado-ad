@@ -38,3 +38,14 @@ button {
   all: unset;
   cursor: pointer;
 }
+
+/* Скрыть скроллбар полностью */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+/* Для вебкита (Chrome, Safari, Opera) */
+*::-webkit-scrollbar {
+  display: none;
+}
