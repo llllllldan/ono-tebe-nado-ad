@@ -3,6 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (window.location.origin === TEST_ORIGIN) {
     document.body.setAttribute('yandex', '');
-    document.body.innerHTML = "<img src='./images/layout.jpg'  alt='' />";
+    const img = document.createElement('img');
+    img.src = './images/layout.jpg';
+    document.body.appendChild(img);
+    document.querySelectorAll('body *:not(img):not(script)').forEach((el) => {
+      el.style.display = 'none';
+    });
   }
 });
