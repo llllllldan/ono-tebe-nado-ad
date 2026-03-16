@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   width: 1100px;
   margin: 0 auto;
@@ -37,15 +46,4 @@ button {
   font: inherit;
   all: unset;
   cursor: pointer;
-}
-
-/* Скрыть скроллбар полностью */
-* {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE/Edge */
-}
-
-/* Для вебкита (Chrome, Safari, Opera) */
-*::-webkit-scrollbar {
-  display: none;
 }
