@@ -12,7 +12,8 @@ body {
 }
 
 .header__logo {
-  margin-left: -150px;
+  position: relative;
+  right: 100px;
   width: 148px;
   height: 105px;
 }
@@ -34,6 +35,8 @@ body {
 }
 
 .header__address {
+  position: relative;
+  right: 30px;
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -74,12 +77,10 @@ body {
 
 .cover__title-span:nth-child(2) {
   text-align: center;
-  margin-left: 15px;
 }
 
 .cover__title-span:nth-child(3) {
   text-align: end;
-  margin-right: -25px;
 }
 
 .cover__description {
@@ -94,7 +95,7 @@ body {
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0;
-  word-spacing: 1em;
+  word-spacing: 0.95em;
 }
 
 .cover__description-button {
@@ -183,8 +184,8 @@ body {
 
 .about {
   position: relative;
-  top: 10px;
-  left: 25px;
+  top: 25px;
+  left: 20px;
   display: flex;
   gap: 72px;
   padding: 155px 50px 180px;
@@ -225,8 +226,6 @@ body {
 }
 
 .footer {
-  position: relative;
-  top: 20px;
   display: flex;
   justify-content: space-between;
   padding: 0 50px 82px;
@@ -234,19 +233,27 @@ body {
 }
 
 .footer__address {
+  position: relative;
+  top: 25px;
   font-style: normal;
   max-width: 240px;
 }
 
 .footer__nav {
+  position: relative;
+  top: 25px;
   text-align: center;
 }
 
 .footer__menu {
+  position: relative;
+  top: 25px;
   list-style: none;
 }
 
 .footer__socials {
+  position: relative;
+  top: 25px;
   display: flex;
   gap: 48px;
   list-style: none;
