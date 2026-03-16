@@ -45,7 +45,7 @@ body {
   background-image: url('../images/cover.jpg');
   position: relative;
   padding: 170px 50px 50px 50px;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 180px;
   height: 757px;
 }
@@ -74,10 +74,12 @@ body {
 
 .cover__title-span:nth-child(2) {
   text-align: center;
+  margin-left: 15px;
 }
 
 .cover__title-span:nth-child(3) {
   text-align: end;
+  margin-right: -25px;
 }
 
 .cover__description {
@@ -92,7 +94,7 @@ body {
   font-size: 22px;
   line-height: 28px;
   letter-spacing: 0;
-  word-spacing: 0.9em;
+  word-spacing: 1em;
 }
 
 .cover__description-button {
@@ -181,8 +183,8 @@ body {
 
 .about {
   position: relative;
-  top: 25px;
-  left: 20px;
+  top: 10px;
+  left: 25px;
   display: flex;
   gap: 72px;
   padding: 155px 50px 180px;
@@ -223,6 +225,8 @@ body {
 }
 
 .footer {
+  position: relative;
+  top: 20px;
   display: flex;
   justify-content: space-between;
   padding: 0 50px 82px;
