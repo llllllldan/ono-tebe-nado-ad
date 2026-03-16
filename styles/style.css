@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-  padding: 90px 50px;
+  padding: 92px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,8 +47,7 @@ body {
 .cover {
   background-image: url('../images/cover.jpg');
   position: relative;
-  padding: 170px 50px 50px 50px;
-  margin-top: 15px;
+  padding: 165px 50px 50px 50px;
   margin-bottom: 180px;
   height: 757px;
 }
@@ -204,7 +203,6 @@ body {
 
 .about__logo img {
   width: 148px;
-  height: 114px;
 }
 
 .about__content {
